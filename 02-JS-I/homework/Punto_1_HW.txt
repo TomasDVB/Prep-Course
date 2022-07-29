@@ -1,0 +1,44 @@
+1. En un archivo de texto separado que debes crear, escribe explicaciones de los siguientes conceptos como si se lo estuvieras explicando a un niño de 12 años.
+Hacer esto te ayudará a descubrir rápidamente cualquier agujero en tu comprensión.
+ 
+Variables: Una variable es un espacio que se utiliza para guardar informacion, esa informacion puede ser cualquier cosa que este en el teclado (letra, numero, 
+operacion aritmetica, simbolo, strings o tambien nada).
+
+Strings: Cualquier cosa entre comillas ("" o '')
+
+Funciones (argumentos, return): Una funcion es una herramienta echa a medida para el problema que se quiera solucionar y es creada por uno mismo. Y lo que hacen
+las funciones por lo general es devolver informacion a diferencia de las las variables o strings. Un codigo responsable de devolver informacion al usuario es 
+el codigo "return". "return" funciona de la siguiente manera, uno lo invoca (escribe) y despues escribe con que quiere que interactue este codigo, por ejemplo:
+
+var numerosecreto = 13;
+return numerosecreto;
+
+13 //me devolvio la variable numerosecreto que en este caso es el numero 13.
+
+Declaraciones if: "if" se traduce a "si" en el sentido de condicion o suposicion. Y lo que hace la funcion "if" es ejercutar el codigo en caso de que la 
+condicion se cumpla, por ejemplo: si un numero es mayor que 0 devolver el mensaje "Positivo". 
+
+function posneg(numero) {
+    if(numero > 0) {
+        return "Positivo";
+    }
+}
+
+function nombre_de_la_funcion(Argumento|variable/s que puedo usar) {
+    //codigo que se va a ejercutar
+    if (condicion) {
+        //codigo que se va a ejecutar en caso de q la condicion se cumpla 
+    }
+}
+
+
+Valores booleanos (true, false): Los balores booleanos son el true (verdadero) y el false (falso), ejemplos de cuando podrian aparecer son los siguientes:
+
+10 === 10
+//true
+
+1 + 1 === 2
+//true
+
+11 === 3
+//false
